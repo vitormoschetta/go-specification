@@ -1,0 +1,2 @@
+*.out
+.pre-commit-config.yaml

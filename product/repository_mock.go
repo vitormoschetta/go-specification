@@ -39,5 +39,11 @@ func (r *InMemoryRepository) Seed() {
 			Price:     200,
 			CreatedAt: time.Now().UTC().Format("2006-01-02"),
 		},
+		"3": {
+			ID:        "3",
+			Name:      "Product 3",
+			Price:     300,
+			CreatedAt: time.Now().UTC().AddDate(0, 0, 1).Format("2006-01-02"),
+		},
 	}
 }
